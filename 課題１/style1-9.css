@@ -58,10 +58,32 @@ header{
 }
 
 .title{
-  margin: 15px 5px 0 0;
+  margin: 15px 0 5px 0;
 }
 
 footer{
   background-color: #AAAAAA;
   height: 50px;
+}
+
+
+@media screen and (max-width:768px){
+
+  header{
+    width: 100%;
+  }
+
+  .main{
+    width: 100%;
+    display: block;
+  }
+
+  .main-content{
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  footer{
+    width: 100%;
+  }
 }
